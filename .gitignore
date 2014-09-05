@@ -1,0 +1,10 @@
+#python cruft
+*.egg
+*.egg-info
+.noseids
+*prof*
+pip-log.txt
+*.pyc
+.idea
+
+settings.py
