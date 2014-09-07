@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 from urllib import request
 from settings import settings
 import random
-from __future__ import print_function
 
 t = Twitter(auth=OAuth(settings['OAUTH_TOKEN'],
                        settings['OAUTH_SECRET'],
@@ -31,4 +30,5 @@ def get_comment():
 
 
 t.statuses.update(status=get_comment())
+
 
